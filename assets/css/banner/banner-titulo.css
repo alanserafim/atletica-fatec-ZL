@@ -1,0 +1,30 @@
+.banner__titulo {
+    background-color: rgba(229, 229, 229, 0.432);
+    color: rgba(99, 1, 1, 1);
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 100%;
+}
+
+
+
+/*media query do titulo*/
+@media screen and (max-width: 1366px) {
+    .titulo {
+        top: 74%;
+    }
+    #main-quemsomos .titulo {
+        top: 68%;
+    }
+    #main-campeonatos .titulo {
+        top:82%;
+    }
+    #main-modalidades .titulo {
+        top: 525px;
+    }
+}

@@ -1,0 +1,715 @@
+*{margin:0; padding: 0}*
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+section{
+    padding: 1%;
+}
+
+/*Conteúdo principal - INDEX*/
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding-left: 1%;
+}
+
+
+
+
+/* Estilo - Campeonatos */
+
+@media screen and (max-width: 630px){
+    #main-campeonatos h1{
+        text-align: left;
+    }
+    #main-campeonatos fieldset{
+        width: 80%;
+        margin: 4% 10%;
+    }
+ 
+    #main-campeonatos .galeria_trofeus{
+       text-align: center;
+    }
+
+    .galeria_texto{
+        width: 80%;
+        padding: 0 1%;
+        margin: 0 8%;
+
+    }
+    .galeria_data_texto{
+        width: 80%;
+        padding: 0 1%;
+        margin: 2% 8%;
+    
+    }
+    #img_trofeus{
+        width: 50%;
+        padding: 0 25%;
+    }
+    #main-campeonatos .galeria_texto {
+        text-align: justify;
+    }
+    #main-campeonatos .galeria_data_texto {
+        text-align: justify;
+    }
+
+
+}
+
+
+/*Mural - INDEX*/
+
+#subtitulo {
+    text-align: left;
+    padding-left: 1%;
+}
+
+
+#caixa-mural h2 {
+    text-align: center;
+}
+
+
+
+#caixa-mural {
+  margin-top: 2%;
+  margin-left: 12%;
+  width: 80%;
+}
+
+.quadro-mural {
+    width: 85%;
+    display: inline-block;
+    padding: 2%;
+}
+
+#mural {
+    width: 20%;
+    display: inline-block;
+    margin: 1%;
+    vertical-align: top;
+}
+   
+#mural li {
+    width: 100%;
+    list-style: none;
+    display: block;
+    text-align: justify;
+    
+}
+
+
+.box-imagem {
+    width: 100%; 
+    height: 200px;
+    border-radius: 22px;
+    border: solid 1px rgba(99, 1, 1, 1);
+
+}
+
+
+/* MAPA - INDEX*/
+
+/*Rodapé*/
+
+
+
+
+
+/*breadcrumbs*/
+
+.breadcrumb {
+    list-style: none;    
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+
+.breadcrumb li {
+    display: inline;    
+    font-size: 1em;
+    color:rgb(78, 0, 0);
+}
+
+#main-modalidades .breadcrumb {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+}
+
+.breadcrumb li+li:before{
+    content: "/\00a0";
+    padding: 6px;
+}
+
+.breadcrumb li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* Estilo modalidades 2*/
+
+
+
+/*Estilo subpage index */
+
+#botoes-index2 {
+    position: absolute;
+    z-index: 5;
+    top: 40px;
+    left: 1000px;;
+}
+
+#botoes-index2 input[type=submit]{
+    width: 100px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: #000;
+    cursor: pointer;
+    
+}
+
+#botoes-index2 input[type=reset]{
+    width: 100px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+/* Media query da breadcrumb*/
+@media screen and (max-width: 630px){
+    .breadcrumb{
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Media query do conteúdo*/
+@media screen and (max-width: 630px){
+        body{
+            font-size: 1em;
+        }
+        .titulo {
+            display: inline;
+            position: unset;
+            background-color: unset;
+            font-size: 2em;
+        }
+        #banner-modalidades {
+            z-index: 1;
+            position: relative;
+            display: inline-block;
+            height: 180px;
+        }
+        p {
+            padding-left: 0%;
+            text-align: justify;
+        }
+        .p-modalidades {
+            text-align: justify;
+            width: 68%;
+            font-size: 1em;
+            padding-left: 18%;
+        }
+       
+        #caixa-mural-modalidades {
+          margin-top: 4%;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+        }
+        #mural-modalidades{
+            width: 40%;
+            margin-bottom: 8%;
+            margin-top: 5%;
+        }
+        .box-imagem-modalidades {
+            width: 70px;
+            height: 90px; 
+            padding-top: 8%;
+        }
+        h1 {
+            text-align: center;
+        }
+        #caixa-mural{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        #quadro-mural{
+            width: 95%;
+        }
+        #mural{
+        width: 100%;
+        }
+        .box-imagem{
+            height: 250px;
+        }
+        
+}
+
+/* Media query do rodapé*/
+@media screen and (max-width: 630px){
+    footer {
+        width: 100%;
+        display: inline-block;
+        padding: 8% 0;
+    }
+    footer p {
+        display: none;
+    }
+    #ico-facebook, #ico-instagram, #ico-email, #ico-localizacao {
+        float: none;
+        display: inline-block;
+        padding: 0 0 0 16px;
+        margin: 0;
+    }
+    #localizacao, #ico, #email{
+        display: inline-block;
+        float: none;
+    }
+    #localizacao{
+        padding: 0;
+        margin: 0;
+    }
+    #email{
+        padding: 0;
+        margin: 0;
+    }
+    #ico {
+        padding: 0;
+        margin: 0;
+    }
+    #ico-facebook, #ico-instagram {
+        width: 52px;
+        height: auto;
+    }
+    #ico-email {
+        width: 52px;
+        height: 48px;
+    }
+    #localizacao p, #email p {
+        display: none;
+    }
+}
+
+
+
+/*media query da gestao */
+@media screen and (max-width: 1366px) {
+    #gestao {
+        width: 85%;
+        margin: 0 7% 6% 7%;
+    }
+   
+    #gestao .membro h2 {
+       padding-top: 1%;
+    }
+ 
+}
+
+/* Media query quem somos mobile*/
+@media screen and (max-width: 630px){
+    #banner-quemsomos{
+        width:100%;
+        height: 160px;
+    }
+    #historia{
+       width: 94%;
+       padding: 3%;
+       margin: 0;
+    }
+    #historia h1 {
+       padding-top: 2%;
+    }
+    #main-quemsomos .breadcrumb {
+        padding-top: 2%;
+        font-size: 0.9em;
+    }
+    #historia-logos {
+        padding: 3% 0 18% 0;
+    }
+    #historia-logos h1 {
+        padding-bottom: 4%;
+    }
+    .logo-evolucao{
+        width: 30%;
+    }
+    #gestao {
+        padding-top: 4%;
+    }
+    #gestao h2, h3, h4 {
+       text-align: center;
+    }
+    #diretoria {
+        float: none;
+        width: 90%;
+    }
+
+}
+
+/* Estilo para formulário de contato */
+
+.conteudo{
+    width: 100%;
+    min-height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: justify;
+    background-color: #fff;
+    margin: 0;
+}
+
+.conteudo .titulo {
+ 
+    float: clear;
+    z-index: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    padding: 0;
+}
+
+input{
+    width: 60%;
+    height: 25px;
+    background-color: rgba(99, 1, 1, 1);
+    color: #fff;
+    border: 2px solid #500101;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+
+#assunto{
+    width: 61.5%;
+    height: 38px;
+    background-color: rgba(99, 1, 1, 1);
+    color: #fff;
+    border: 2px solid #500101;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+#data{
+    width: 60%;
+    height: 24px;
+    background-color: rgba(99, 1, 1, 1);
+    color: #fff;
+    border: 2px solid #500101;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+
+label, legend{
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+fieldset{
+    padding: 5px;
+    border: none;
+    margin-top: 1em;
+
+}
+
+textarea{
+    width: 60.5%;
+    background-color: rgba(99, 1, 1, 1);
+    color: #fff;
+    border: 2px solid #500101;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+input[type=submit]{
+    width: 15%;
+    height: 40px;
+    background-color: #500101;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 10px;
+    
+}
+input[type=reset]{
+    width: 15%;
+    height: 40px;
+    background-color: #500101;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.required:after{
+    content: " *";
+    color: red;
+}
+
+#contato{
+    margin: 0 0 0 25%;
+}
+
+@media screen and (max-width: 630px){
+
+    #conteudo .titulo {
+        padding-left: 20%;
+    }
+
+    input{
+        width: 90%;
+    }
+    
+    #assunto{
+        width: 94%;
+    }
+    #data{
+        width: 90%;
+    }
+    
+    textarea{
+        width: 90%;
+    }
+    
+    input[type=submit]{
+        width: 25%;
+        margin-left: 20%;
+    }
+    input[type=reset]{
+        width: 25%;
+        
+    }
+    
+    #contato{
+        margin-left: 0;
+        padding-left: 0;
+        border-left: 0;
+
+    }
+}
+
+
+/*estilo da loja virtual*/
+
+
+#main-lojavirtual .titulo {
+    top: 46.5%;
+}
+
+
+#mural-produtos{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    list-style: none;
+    padding-top: 2%;
+}
+
+.box-imagem-produtos{
+    width: 40%;
+    height: 215px; 
+    padding-top: 6%;
+}
+
+#main-lojavirtual p {
+    padding: 4% 0;
+}
+
+#mural-produtos h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 1366px){
+    #main-lojavirtual .titulo {
+        top: 53.7%;
+    }
+    .box-imagem-produtos{
+        width: 40%;
+        height: 180px; 
+        padding-top: 6%;
+    }
+}
+
+@media screen and (max-width: 630px){
+
+    #banner-lojavirtual{
+        height: 108px;
+    }
+    #mural-produtos{
+       width: 100%;
+    }
+    #main-lojavirtual p {
+        padding: 2% 8.5%;    
+    }
+}
+
+
+
+/*Estilo da página eventos */
+
+#main-eventos {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#banner-eventos{
+    width: 60%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.fundo-banner {
+    background-image: url(../img/eventos_baner_atletica.png);
+    background-size: 32%;
+    width: 100%;
+    height: 270px;
+    opacity: 0.8;
+}
+
+#caixa-mural-eventos{
+  margin-top: 2%;
+  margin-left: 20%;
+  padding: 1% 2% 2% 1%;
+  width: 100%;
+}
+
+.quadro-mural-eventos{
+    width: 85%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#caixa-mural-eventos{
+    width: 90%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#mural-eventos{
+    width: 28%;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 6% 2%;
+    vertical-align: top;
+}
+
+.box-imagem-eventos {
+    width: 250px;
+    height: 250px; 
+}
+
+h1 {
+      text-align: center;
+  }
+
+#main-eventos p{
+    font-size: 1em;
+    text-align: justify;
+    padding-top: 0.8em;
+}
+
+#main-eventos h2 {
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 0.8em;
+}
+
+#main-eventos .titulo {
+    top: 39.5%;
+    color: rgba(99, 1, 1, 1);
+    background-color: rgba(170, 129, 129, 0.897);
+}
+
+@media screen and (max-width: 1366px){
+    #main-eventos .titulo {
+        top: 58.2%;
+        color: rgba(99, 1, 1, 1);
+        background-color: rgba(170, 129, 129, 0.897);
+    }
+}
+
+@media screen and (max-width: 630px){
+    .fundo-banner {
+      height: 120px;
+      background-size: 37%;
+    }
+ 
+    #mural-eventos{
+     width: 100%;
+    }
+}
+
+
+
+
+/*Estilo página de acessibilidade*/
+
+#main-acessibilidade {
+    padding-bottom: 3em;
+}
+
+
+#main-acessibilidade p {
+    text-align: left;
+}
+
+
+@media screen and (max-width: 630px){
+    #main-acessibilidade p {
+        text-align: justify;
+    }
+    #main-acessibilidade {
+        padding: 1em;
+    }
+}
+
+
+
+/*
+CORES
+amarelo: rgba(232, 182, 2, 0.836);
+vermelho: rgba(99, 1, 1, 1)
+@media screen and (max-width: 1366px){}
+
+@media screen and (max-width: 630px){}
+
+*/

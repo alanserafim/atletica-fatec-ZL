@@ -1,0 +1,8 @@
+.acessibilidade__links {
+    display: flex;
+}
+
+.acessibilidade__links a {
+    margin-right: 1em;
+}
+

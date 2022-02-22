@@ -1,0 +1,7 @@
+.acessibilidade__atalhos {
+    display: flex;
+}
+
+.acessibilidade__atalhos a{
+    margin-left: 1em;
+}

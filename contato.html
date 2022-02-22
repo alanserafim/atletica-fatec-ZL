@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!--Metadados-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sistema web da Atlética da FATEC Zona Leste">
+        <meta name="keywords" content="Atlética, FATEC, Zona Leste">
+        <meta name="author" content="Alan Serafim, Pablo Pontes, Thais Almeida">
+    
+        <!--CSS links-->
+        <link rel="stylesheet" href="./assets/css/normalize.css">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/estilo.css">
+        <link rel="stylesheet" href="assets\css\cabecalho.css">
+        <link rel="stylesheet" href="assets\css\acessibilidade\acessibilidade.css">
+        <link rel="stylesheet" href="assets\css\acessibilidade\acessibilidade-atalhos.css">
+        <link rel="stylesheet" href="assets\css\acessibilidade\acessibilidades-links.css">
+        <link rel="stylesheet" href="assets\css\menu-superior\menu-superior.css">
+        <link rel="stylesheet" href="assets\css\menu-superior\menu-botao.css">
+        <link rel="stylesheet" href="assets\css\menu-superior\menu-dropdown.css">
+        <link rel="stylesheet" href="assets\css\menu-superior\menu-links.css">
+        <link rel="stylesheet" href="assets\css\menu-superior\logo-atletica.css">
+        <link rel="stylesheet" href="assets\css\banner\banner-imagem.css">
+        <link rel="stylesheet" href="assets\css\banner\banner-titulo.css">
+        <link rel="stylesheet" href="assets\css\banner\banner.css">
+        <link rel="stylesheet" href="assets\css\mural\mural.css">
+        <link rel="stylesheet" href="assets\css\mural\mural-titulo.css">
+        <link rel="stylesheet" href="assets\css\mural\noticia-conteudo.css">
+        <link rel="stylesheet" href="assets\css\mural\noticia-descricao.css">
+        <link rel="stylesheet" href="assets\css\mural\noticia-imagem.css">
+        <link rel="stylesheet" href="assets\css\mural\noticia-titulo.css">
+        <link rel="stylesheet" href="assets\css\mural\noticia.css">
+        <link rel="stylesheet" href="assets\css\mural\noticias.css">
+        <link rel="stylesheet" href="assets\css\mapa\mapa.css">
+        <link rel="stylesheet" href="assets\css\mapa\mapa-titulo.css">
+        <link rel="stylesheet" href="assets\css\mapa\mapa-descricao.css">
+        <link rel="stylesheet" href="assets\css\mapa\mapa-iframe.css">
+        <link rel="stylesheet" href="assets\css\rodape.css">
+        <link rel="stylesheet" href="assets\css\rodape-icones\icones__redeSociais.css">
+        <link rel="stylesheet" href="assets\css\rodape-icones\icones.css">
+        <link rel="stylesheet" href="assets\css\rodape-icones\iconesLogo-fatec.css">
+        <link rel="stylesheet" href="assets\css\rodape-icones\iconesRedesSocias-icone.css">
+        <link rel="stylesheet" href="assets\css\rodape-desenvolvimento\desenvolvimento-descricao.css">
+        <link rel="stylesheet" href="assets\css\rodape-desenvolvimento\desenvolvimento.css">
+
+        <!-- <link rel="stylesheet" href="assets\css\contraste.css"> -->
+    
+        <!--javaScript links-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./assets/js/contraste.js"></script>
+        <script type="text/javascript" src="./assets/js/fonte.js"></script>
+        <script type="text/javascript" src="./assets/js/menu_movel.js"></script>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script> new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    
+        <!--icones links-->
+        <link rel="icon" href="assets\img\icon\logo_icone.ico" type="image/x-icon">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="acessibilidade">
+            <ul class="acessibilidade__atalhos">
+                <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo [1]</a></li>
+                <li><a href="#menu" accesskey="2" title="Ir diretamente para o menu">Ir para o menu [2]</a></li>
+                <li><a href="#rodape" accesskey="3" title="Ir diretamente para o rodapé">Ir para o rodapé [3]</a></li>
+            </ul>
+            <ul class="acessibilidade__links">
+                <li><a href="acessibilidade.html" title="Ir para a página de Acessibilidade">ACESSIBILIDADE</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="contraste">CONTRASTE PRETO</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="sem_contraste">SEM CONTRASTE</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="aumentar">A+</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="diminuir">A-</a></li>
+            </ul>
+        </section>
+        <section class="menu-superior">
+            <a href="index.html"><img class="logo-atletica" src="./assets/img/menu-superior/logo_atletica.png" alt="Imagem do logo da Atlética da Fatec Zona Leste com um escudo nas cores vermelha e amarela e uma coruja branca"></a>
+           
+            <nav class="menu" id="#menu">
+                <label for="menu__botao"><img class="menu__dropdown" src="./assets/img/menu-superior/menu_white.ico" alt="Imagem do botão de menu contendo três faixas brancas"></label>
+                <input type="checkbox" class="menu__botao" onclick="MudaImg()">
+                <ul class="menu__links">
+                    <li><a href="quemsomos.html">QUEM SOMOS</a></li>
+                    <li><a href="modalidades.html">MODALIDADES</a></li>
+                    <li><a href="campeonatos.html">CAMPEONATOS</a></li>
+                    <li><a href="eventos.html">EVENTOS</a></li>
+                    <li><a href="loja_virtual.html">LOJA VIRTUAL</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main id="conteudo">
+        <h1 class="titulo">FALE CONOSCO</h1>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Início</a></li>
+            <li>Fale Conosco</li>
+        </ul>
+        <section>
+        <form name="contato" id="contato" method="POST">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome" class="required">Nome</label><br>
+                <input type="text" name="nome" id="nome" required placeholder="Nome Completo"><br>
+                <label for="data" class="required">Data de Nascimento</label><br>
+                <input type="date" name="data" id="data" required><br>
+                <label for="celular" class="celular">Celular</label><br>
+                <input type="tel" name="celular" id="celular" required placeholder="(11) 9 9999-9999"><br>
+                <label for="email" class="required">E-mail</label><br>
+                <input type="email" name="e-mail" id="e-mail" required placeholder="seuemail@site.com.br"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <label for="assunto" class="required">Assunto</label><br>
+                <select name="assunto" id="assunto" required>
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="Dúvida">Dúvida</option>
+                    <option value="Elogio">Elogio</option>
+                    <option value="Reclamação">Reclamação</option>
+                    </select><br>
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea class="required" name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem" rows="10" cols="50" required></textarea>                    
+            </fieldset><br>
+            <input type="submit" name="enviar" id="enviar" value="Enviar"> <input type="reset" name="limpar" id="limpar" value="Limpar">
+        </form> 
+        <br>
+        </section>
+    </main>
+    <footer class="rodape" id="rodape">
+        <section class="icones">
+            <div class="icones__logo">
+               <a href="http://www.fateczl.edu.br/" target="_blank" rel="noopener"><img class="iconesLogo__fatec" src="assets\img\rodape\logo_fatec_branco.png" alt="Logo da Fatec na cor branca"></a>
+            </div>
+            <div class="icones__redeSociais">
+                <a href="https://www.facebook.com/atleticafateczl/" target="_blank" rel="noopener"><img class="iconesRedesSocias_icone" src="assets\img\rodape\facebook_img_white.ico" alt="imagem do ícone do facebook na cor branca"></a>
+                <a href="https://www.instagram.com/atleticafateczl/" target="_blank" rel="noopener"><img class="iconesRedesSocias_icone" src="assets\img\rodape\instagram_img_white.ico" alt="imagem do ícone do instagram na cor branca"></a>
+                <a href="mailto:fateczlatletica@gmail.com" target="_blank" rel="noopener"><img class="iconesRedesSocias_icone" src="assets\img\rodape\email_img.ico" alt="imagem do ícone de email na cor branca"></a>
+            </div>
+        </section>
+        <div class="desenvolvimento">
+            <p class="desenvolvimento__descricao">Desenvolvido por Alan Serafim, Pablo Pontes e Thais Almeida &copy; 2021.</p>
+        </div>
+    </footer>
+</body>
+</html>

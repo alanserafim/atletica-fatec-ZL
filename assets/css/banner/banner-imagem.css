@@ -1,0 +1,23 @@
+.banner__imagem {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+}
+
+.indexImagem {
+    background-image: url("../../img/banner/banner_quemsomos3.jpg");
+}
+
+.quemSomosImagem {
+    background-image: url("../../img/banner/banner_quemsomos3.jpg"); 
+}
+
+.modalidadesImagem {
+    background-image: url("../../img/banner/basquete_partida.jpg");
+}
+
+.campeonatosImagem {
+    background-image: url("../../img/banner/campeonatos_mural.png");
+}

@@ -1,0 +1,99 @@
+
+/*media query menu responsivo*/
+
+@media screen and (max-width:630px) {
+    #logo-topo {
+        display: inline-block;
+        float: none;
+        width: 120px;
+        height: auto;
+        padding-left: 30%; 
+        padding-right: 30%;   
+    }
+    header{
+        background-color: rgba(99, 1, 1, 1);
+    }
+    #menu-topo{
+        display: none;
+        padding-left: 0;
+    }
+    nav {
+        height: auto;
+        padding-bottom: 4%;
+    }
+    #dropdown{
+        display: block;
+        position: relative;
+        padding-bottom: 1%;
+    }
+    label[for="bt_menu"]{
+        display: block;
+    }
+    #bt_menu:checked ~ #menu-topo {
+        display: inline-block;
+    }
+    #menu-topo ul{
+        display: block;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    #menu-topo li {
+        position: relative;
+        float: left;
+        width: 98%;
+        border: 2px solid #FEFEFE;
+        text-align: center;
+        padding: 0;
+        margin: 0 2px;
+    }
+}
+
+/* media query da barra de acessibilidade*/
+
+@media screen and (max-width: 1440px) { 
+    #pgacess{
+        padding-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #pgacess{
+        padding-left: 29%;
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    #pgacess{
+        padding-left: 18%;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    #pgacess{
+        padding-left: 1%;
+    } 
+}
+
+@media screen and (max-width: 630px){
+    #atalhos{
+        font-size: 0.8em;
+        padding: 0;
+        text-align: center ;
+    }
+    ul#atalhos li{
+       display: none;
+     }
+
+     ul#atalhos li#pgacess {
+         display: inline;
+     }
+
+     ul#atalhos li.contraste {
+         display: inline;
+     }
+     ul#atalhos li.fonte{
+         display: inline;
+     }
+
+}   

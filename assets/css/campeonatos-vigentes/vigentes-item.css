@@ -1,0 +1,9 @@
+.vigentes__item {
+    color: black;
+    text-decoration: none;
+}
+
+.vigentes__item:hover {
+    color: rgba(99, 1, 1, 1);
+    text-decoration: underline;
+}

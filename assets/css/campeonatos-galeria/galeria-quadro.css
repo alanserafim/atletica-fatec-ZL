@@ -1,0 +1,5 @@
+.galeria__quadro {
+    display: flex;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}

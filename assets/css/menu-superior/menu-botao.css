@@ -1,0 +1,7 @@
+label [for="menu__botao"] {
+    display: none;
+}
+
+.menu__botao {
+    display: none;
+}
