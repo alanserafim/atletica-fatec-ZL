@@ -21,3 +21,11 @@
 .campeonatosImagem {
     background-image: url("../../img/banner/campeonatos_mural.png");
 }
+
+.eventosImagem {
+    background-image: url("../../img/banner/eventos_baner_atletica.png");
+    background-repeat: unset;
+    background-position: unset;
+    background-size: 500px;
+    opacity: 0.6;
+}

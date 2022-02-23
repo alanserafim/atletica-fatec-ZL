@@ -1,0 +1,4 @@
+.eventos__quadro {
+    display: flex;
+    justify-content: space-around;
+}
