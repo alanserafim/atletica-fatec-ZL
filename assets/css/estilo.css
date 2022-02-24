@@ -379,53 +379,41 @@ p {
 }
 
 /* Estilo para formulário de contato */
+/*********************/
+section {
+    padding: 0;
+}
+/*********************/
 
 .conteudo{
     width: 100%;
-    min-height: 600px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
-    text-align: justify;
+    text-align: left;
     background-color: #fff;
-    margin: 0;
 }
 
-.conteudo .titulo {
- 
-    float: clear;
-    z-index: none;
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-
-section{
-    padding: 0;
-}
 
 input{
-    width: 60%;
+    width: 35%;
     height: 25px;
     background-color: rgba(99, 1, 1, 1);
     color: #fff;
     border: 2px solid #500101;
     padding: 5px;
-    margin-left: 5px;
 
 }
 
 #assunto{
-    width: 61.5%;
+    width: 37%;
     height: 38px;
     background-color: rgba(99, 1, 1, 1);
     color: #fff;
     border: 2px solid #500101;
-    padding: 5px;
-    margin-left: 5px;
 
 }
 #data{
-    width: 60%;
+    width: 35%;
     height: 24px;
     background-color: rgba(99, 1, 1, 1);
     color: #fff;
@@ -449,16 +437,15 @@ fieldset{
 }
 
 textarea{
-    width: 60.5%;
+    width: 37%;
     background-color: rgba(99, 1, 1, 1);
     color: #fff;
     border: 2px solid #500101;
-    padding: 5px;
-    margin-left: 5px;
+
 }
 
 input[type=submit]{
-    width: 15%;
+    width: 18.2%;
     height: 40px;
     background-color: #500101;
     color: #fff;
@@ -467,7 +454,7 @@ input[type=submit]{
     
 }
 input[type=reset]{
-    width: 15%;
+    width: 18.2%;
     height: 40px;
     background-color: #500101;
     color: #fff;
@@ -480,9 +467,6 @@ input[type=reset]{
     color: red;
 }
 
-#contato{
-    margin: 0 0 0 25%;
-}
 
 @media screen and (max-width: 630px){
 
@@ -525,34 +509,6 @@ input[type=reset]{
 
 /*estilo da loja virtual*/
 
-
-#main-lojavirtual .titulo {
-    top: 46.5%;
-}
-
-
-#mural-produtos{
-    width: 30%;
-    height: auto;
-    display: inline-block;
-    list-style: none;
-    padding-top: 2%;
-}
-
-.box-imagem-produtos{
-    width: 40%;
-    height: 215px; 
-    padding-top: 6%;
-}
-
-#main-lojavirtual p {
-    padding: 4% 0;
-}
-
-#mural-produtos h2 {
-    text-align: center;
-    font-size: 1.5em;
-}
 
 @media screen and (max-width: 1366px){
     #main-lojavirtual .titulo {

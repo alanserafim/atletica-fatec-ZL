@@ -1,0 +1,4 @@
+.loja__quadro {
+    display: flex;
+    flex-wrap: wrap;
+}
