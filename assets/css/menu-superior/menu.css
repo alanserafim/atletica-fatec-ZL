@@ -2,7 +2,7 @@
     width: 80%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
     .menu {
         width: 90%;
         padding-bottom: 2em;

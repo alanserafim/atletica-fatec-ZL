@@ -3,7 +3,7 @@
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
     .menu__dropdown {
         display: block;
         position: relative;

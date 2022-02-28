@@ -20,6 +20,19 @@
     color: white;
 }
 
+
+@media screen and (max-width: 1260px) {
+    .menu__links {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .menu__links a {
+        line-height: 2em;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .menu__links {
         flex-wrap: wrap;
@@ -31,23 +44,22 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
     .menu__links {
         flex-wrap: nowrap;
         flex-direction: column;
-        justify-content: flex-start;
-        display: none;
-
+        position: absolute;
+        left: -300px;
+        transition: .4s;
     }
     .menu__links a {
         line-height: 2em;
     }
-
-    
     .menu__botao:checked ~ .menu__links {
         display: flex;
+        transform: translateX(300px);
+        position: relative;
     }
-
     .menu__links li {
         margin-left: 0;
     }
