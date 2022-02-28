@@ -6,7 +6,7 @@
 }
 
 .menu__links li {
-    margin-left: .6em;
+    margin-left: 1.1em;
 }
 
 .menu__links a {
@@ -14,4 +14,8 @@
     font-weight: bold;
     font-size: 1.2em;
     color: rgba(232, 182, 2, 0.836) /* rgba(99, 1, 1, 1)*/;
+}
+
+.menu__links a:hover {
+    color: white;
 }
