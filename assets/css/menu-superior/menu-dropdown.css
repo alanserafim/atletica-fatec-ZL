@@ -2,3 +2,11 @@
     width: 32px;
     display: none;
 }
+
+@media screen and (max-width: 375px) {
+    .menu__dropdown {
+        display: block;
+        position: relative;
+        padding-bottom: 1%;
+    }
+} 

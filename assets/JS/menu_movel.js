@@ -1,8 +1,8 @@
 function MudaImg(){
-    checkbox = document.getElementsByClassName('menu__botao');
+    checkbox = document.querySelector('[data-menuBotao]');
     if(checkbox.checked) {
-    document.getElementsByClassName('menu__dropdown').src = './assets/img//menu-superior/fechar_white.ico';
+    document.querySelector('[data-menuImagem]').src = './assets/img//menu-superior/fechar_white.ico';
 } else {
-    document.getElementsByClassName('menu__dropdown').src = './assets/img/menu-superior/menu_white.ico';
+    document.querySelector('[data-menuImagem]').src = './assets/img/menu-superior/menu_white.ico';
     }
 }
