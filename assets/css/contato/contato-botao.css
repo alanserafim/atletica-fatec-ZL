@@ -1,0 +1,15 @@
+.contato__botoes {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.contato__botao {
+    width: 48%;
+    height: 40px;
+    background-color: #500101;
+    color: #fff;
+    cursor: pointer;
+}

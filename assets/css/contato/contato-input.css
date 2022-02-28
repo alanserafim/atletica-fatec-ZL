@@ -1,0 +1,8 @@
+.contato__input {
+    width: 100%;
+    height: 25px;
+    background-color: rgba(99, 1, 1, 1);
+    color: #fff;
+    border: 2px solid #500101;
+    margin-bottom: .4em;
+}
