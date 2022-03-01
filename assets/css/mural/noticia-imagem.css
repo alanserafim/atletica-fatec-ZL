@@ -6,10 +6,10 @@
 
 @media screen and (max-width: 550px){
     .noticia__imagem {
-        border-radius: 10%;
-        height: 220px; 
-        width: 220px;
-        padding: 1em;
+        border-radius: 0;
+        height: 60vw; 
+        width: 60vw;
+        padding: 1em 2em;
     }
     
 }

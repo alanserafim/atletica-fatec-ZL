@@ -8,7 +8,8 @@
 @media screen and (max-width: 550px){
     .noticia__conteudo {
         justify-content: center;
-        width: 80%;
+        align-items: center;
+        width: 100%;
         font-size: 1.5em;
     }
 }

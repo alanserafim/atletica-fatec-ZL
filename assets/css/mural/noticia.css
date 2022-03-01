@@ -14,8 +14,10 @@
     .noticia {
         margin-left: 0;
         margin-top: 2em;
-        width: 100%;
+        width: 78vw;
+        height: 62vh;
         align-items: center;
         padding-bottom: 2em;
+        border-radius: 2%;
     }
 }
