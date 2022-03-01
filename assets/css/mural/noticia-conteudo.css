@@ -4,3 +4,11 @@
     height: 30%;
     width: 100%;
 }
+
+@media screen and (max-width: 550px){
+    .noticia__conteudo {
+        justify-content: center;
+        width: 80%;
+        font-size: 1.5em;
+    }
+}

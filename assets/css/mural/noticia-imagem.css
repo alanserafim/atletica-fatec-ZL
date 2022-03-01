@@ -3,3 +3,13 @@
     height: 180px; 
     width: 100%;
 }
+
+@media screen and (max-width: 550px){
+    .noticia__imagem {
+        border-radius: 10%;
+        height: 220px; 
+        width: 220px;
+        padding: 1em;
+    }
+    
+}

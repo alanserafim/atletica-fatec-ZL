@@ -2,3 +2,10 @@
     background-color: #e5e5e5;
     padding: .4em 17% 2em 17%;
 }
+
+@media screen and (max-width: 550px){
+    .mural {
+        padding: 0;
+        padding: 1em 1em;
+    }
+}
