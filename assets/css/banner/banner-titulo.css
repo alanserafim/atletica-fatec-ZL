@@ -16,10 +16,25 @@
     .banner__titulo {
         top: 50%;
     }
+    .tituloAlternativo {
+        top: 70%;
+    }
+    .tituloAlternativo2 {
+        top: 70%;
+    }
 }
 @media screen and (max-width: 550px) {
     .banner__titulo {
         font-size: 2.5em;
-        top: 40%;
+        top: 46%;
     }
+
+    .tituloAlternativo {
+        top: 63%;
+        font-size: 3em;
+    }
+    .tituloAlternativo2 {
+        top: 70%;
+    }
+    
 }
