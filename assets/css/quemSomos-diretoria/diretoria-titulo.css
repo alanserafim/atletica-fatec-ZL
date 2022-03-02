@@ -2,3 +2,11 @@
     color: rgb(232, 182, 2);
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .diretoria__titulo {
+        font-size: 1.8em;
+        padding: 1em 0 .5em 0;
+    }
+    
+}

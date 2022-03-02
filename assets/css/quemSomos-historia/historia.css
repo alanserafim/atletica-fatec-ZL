@@ -3,3 +3,11 @@
     padding-top: 2%;
     width: 65%;
 }
+
+@media screen and (max-width: 768px) {
+    .historia {
+        width: auto;
+        padding-top: unset;
+        padding: 2em;
+    }
+}

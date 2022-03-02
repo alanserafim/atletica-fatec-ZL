@@ -6,3 +6,11 @@
     padding: 1% 0 4% 0;
     width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+    .diretoria {
+        width: 92%;
+        margin-bottom: 2em;
+    }
+    
+}

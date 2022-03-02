@@ -5,3 +5,12 @@
     margin: 2% 2% 2% 2%;
     width: 60%;
 }
+
+@media screen and (max-width: 768px) {
+    .diretoria__imagem {
+        height: auto;
+        width: 80vw;
+        margin: 1.5em;
+        padding: 0;
+    }
+}
