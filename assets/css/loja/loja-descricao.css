@@ -3,3 +3,11 @@
     text-align: center;
     font-size: 1.5em;
 }
+
+@media screen and (max-width: 550px){
+    .loja__descricao {
+        text-align: justify;
+        padding: 1em 1em;
+    }
+    
+}
