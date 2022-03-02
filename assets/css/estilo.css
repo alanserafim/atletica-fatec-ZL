@@ -388,45 +388,6 @@ section {
 
 
 
-@media screen and (max-width: 630px){
-
-    #conteudo .titulo {
-        padding-left: 20%;
-    }
-
-    input{
-        width: 90%;
-    }
-    
-    #assunto{
-        width: 94%;
-    }
-    #data{
-        width: 90%;
-    }
-    
-    textarea{
-        width: 90%;
-    }
-    
-    input[type=submit]{
-        width: 25%;
-        margin-left: 20%;
-    }
-    input[type=reset]{
-        width: 25%;
-        
-    }
-    
-    #contato{
-        margin-left: 0;
-        padding-left: 0;
-        border-left: 0;
-
-    }
-}
-
-
 /*estilo da loja virtual*/
 
 

@@ -4,3 +4,15 @@
     margin-top: 1em;
     width: 30%;
 }
+
+@media screen and (max-width: 1024px) {
+    .contato__fieldset {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contato__fieldset {
+        width: 90%;
+    }
+}
