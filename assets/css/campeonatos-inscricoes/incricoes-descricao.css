@@ -6,3 +6,12 @@
     text-align: justify;
     width: 520px;
 }
+
+@media screen and (max-width: 765px) {
+    .inscricoes__descricao {
+        margin: 0;
+        padding: 0 1em;
+        width: 90%;
+        height: auto;
+    }
+}

@@ -5,3 +5,12 @@
     text-align:left;
     width: 400px;
 }
+
+@media screen and (max-width: 765px) {
+    .galeria__descricao {
+        margin: 0;
+        padding: 0 1em;
+        width: 90%;
+        height: auto;
+    }
+}

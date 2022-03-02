@@ -3,3 +3,9 @@
     height: auto;
     width: 180px;
 }
+
+@media screen and (max-width: 765px) {
+    .inscricoes__imagem {
+        padding-bottom: 1em;
+    }
+}

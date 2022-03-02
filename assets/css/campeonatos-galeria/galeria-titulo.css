@@ -4,3 +4,9 @@
     padding-bottom: 2em;
     text-align: left;
 }
+
+@media screen and (max-width: 765px) {
+    .galeria__titulo {
+        text-align: center;
+    }
+}
