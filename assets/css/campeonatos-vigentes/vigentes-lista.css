@@ -6,6 +6,9 @@
 
 @media screen and (max-width: 550px) {
     .vigentes__lista {
-        text-align: justify;
+        text-align: left;
+        border: 2px dashed rgba(99, 1, 1, 1);
+        padding: 1em;
+        margin-bottom: 1em;
     }
 }
