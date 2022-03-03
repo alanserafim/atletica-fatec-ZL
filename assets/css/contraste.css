@@ -1,124 +1,57 @@
+:root {
+    --branco-medio: black;
+    --branco-texto: white;
+    --azul-link: yellow;
+    --vermelho-link: yellow;
+    --vermelho-atletica: black;
+    --titulo-h1: white;
+    --titulo-h2: white;
+    --fundo-quadro: yellow;
+    --vermelho-alerta: yellow;
+    --cinza-fundo:  black;
+    --preto-padrao: white;
+    --background: black;
+    --background-card: black;
+    --menu-cor: yellow;
+    --menu-hover: #fefefe;
+    --shadow: white;
+    --acessibilidade-links: yellow;
+    --titulo-modalidade: black;
+    --formulario-borda: white;
+    --formulario-botao:yellow;
+    --formulario-botao-texto: black;
+    --background-card-modalidade: white;
+}
+
 body {
-    color: white;
-}
-
-.acessibilidade {
-    background-color: black;
-}
-
-.acessibilidade a {
-    color: yellow;
-}
-
-.acessibilidade a:hover {
-    color: yellow;
-}
-
-.banner__titulo {
-    background-color: black;
-    color: white;
-}
-
-.mapa{
-    background-color: black;
-}
-
-.menu__links a {
-    color: yellow;
-}
-
-.menu-superior {
-    background-color: black;
-}
-
-.mural {
-    background-color: black;
-}
-
-.noticia {
-    background-color: black;
-}
-
-.rodape {
-    background-color: black;
-    color: white;
-}
-
-.diretoria__imagem {
-    box-shadow: 0px 0px 0px 10px rgb(182, 159, 159);
-}
-
-.diretoria__titulo {
-    color: white;
-}
-
-.diretoria {
-    background-color: black;
-    box-shadow: 0px 0px 10px 10px rgb(182, 159, 159);
-}
-
-.membro__contato {
-    color: white;
-}
-
-.membro__nome {
-    color: white;
-}
-
-.membro__titulo {
-    color: white;
-}
-
-.quemSomos {
-    background-color: black;
-}
-
-.modalidades {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
     color: white;
     background-color: black;
 }
 
-.modalidade {
-    box-shadow: 13px 13px 0px -4px yellow; 
-    background-color: white;
+main {
+    text-align: center;
 }
 
-.modalidades__descricao {
-    background-color: black;
+h1 {
+    text-align: center;
 }
 
-.campeonatos {
-    color: white;
-    background-color: black;
+h2 {
+    text-align: left;
 }
 
-.galeria__descricao {
-    border: 2px dashed yellow;
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
 
-.galeria__link {
-    color: yellow;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }
 
-.galeria__titulo {
-    color: white;
-}
-
-.inscricoes__descricao {
-    border: 2px dashed yellow;
-}
-
-.inscricoes__link {
-    color: yellow;
-}
-.vigentes__item {
-    color: white;
-}
-
-.vigentes__item:hover {
-    color: yellow;
-}
-
-.vigentes__titulo {
-    color: white;
+ul, li {
+    padding: 0;
 }

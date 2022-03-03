@@ -1,5 +1,5 @@
 .diretoria__titulo {
-    color: rgb(232, 182, 2);
+    color: var(--titulo-h2);
     text-align: center;
 }
 

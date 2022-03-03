@@ -1,9 +1,9 @@
 .vigentes__item {
-    color: black;
+    color: var(--preto-padrao);
     text-decoration: none;
 }
 
 .vigentes__item:hover {
-    color: rgba(99, 1, 1, 1);
+    color: var(--vermelho-link);
     text-decoration: underline;
 }

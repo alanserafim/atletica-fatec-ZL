@@ -1,4 +1,4 @@
 .membro__contato {
-    color: rgb(182, 159, 159);
+    color: var(--shadow);
     font-size: 1em;
 }

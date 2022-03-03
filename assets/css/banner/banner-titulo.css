@@ -1,6 +1,6 @@
 .banner__titulo {
-    background-color: rgba(229, 229, 229, 0.432);
-    color: rgba(99, 1, 1, 1);
+    background-color: var(--cinza-fundo);
+    color: var(--titulo-h1);
     font-size: 3em;
     font-weight: bold;
     line-height: 1.5em;
@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 768px) {
     .banner__titulo {
+        font-size: 2.9em;
         top: 50%;
     }
     .tituloAlternativo {

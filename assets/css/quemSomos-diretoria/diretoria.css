@@ -1,7 +1,7 @@
 .diretoria {
     border-radius: 12px;
-    background-color: rgba(99, 1, 1, 1);
-    box-shadow: 0px 0px 10px 10px rgb(182, 159, 159);
+    background-color: var(--vermelho-atletica);
+    box-shadow: 0px 0px 10px 10px var(--shadow);
     margin-bottom: 4%;
     padding: 1% 0 4% 0;
     width: 80%;

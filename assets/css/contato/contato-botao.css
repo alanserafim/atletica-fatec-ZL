@@ -9,8 +9,8 @@
 .contato__botao {
     width: 48%;
     height: 40px;
-    background-color: #500101;
-    color: #fff;
+    background-color: var(--formulario-botao);
+    color: var(--formulario-botao-texto);
     cursor: pointer;
 }
 

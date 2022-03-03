@@ -1,7 +1,7 @@
 .vigentes__titulo {
-    color: rgba(99, 1, 1, 1);
+    color: var(--titulo-h1);
     font-size: 1.4em;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
     text-align: left;
 }
 

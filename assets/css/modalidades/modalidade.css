@@ -1,6 +1,6 @@
 .modalidade {
-    background-color: #E5E5E5;
-    box-shadow: 13px 13px 0px -4px rgba(99, 1, 1, 1); 
+    background-color: var(--background-card-modalidade);
+    box-shadow: 13px 13px 0px -4px var(--fundo-quadro);
     margin-bottom: 2em;
     margin-left: 2em;
     width: 18%;

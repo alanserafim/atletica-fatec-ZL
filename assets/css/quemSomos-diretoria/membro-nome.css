@@ -1,5 +1,5 @@
 .membro__nome {
-    color: whitesmoke;
+    color: var(--branco-texto);
     font-size: 1.2em;
     padding-top: .3em;
 }

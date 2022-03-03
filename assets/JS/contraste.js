@@ -1,12 +1,12 @@
 //script contraste	
 			
 	
-var link_css = "css/estilo.css";
+var link_css = "assets/css/base.css";
 				
 if(getCookie2() == "contraste"){
-	link_css = "css/contraste.css"; // se o valor do cookie capturado pela function getCookie2 for contraste, a variável link_css recebe como valor a folha de estilo contraste.css
+	link_css = "assets/css/contraste.css"; // se o valor do cookie capturado pela function getCookie2 for contraste, a variável link_css recebe como valor a folha de estilo contraste.css
 }else if(getCookie() == "default"){
-	link_css = "css/esstilo.css";
+	link_css = "assets/css/base.css";
 }
 
 $(document).ready(function(){

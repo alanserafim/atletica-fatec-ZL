@@ -1,6 +1,6 @@
 .diretoria__imagem {
     border-radius: 2%;
-    box-shadow: 0px 0px 0px 10px rgb(182, 159, 159);
+    box-shadow: 0px 0px 0px 10px var(--shadow);
     height: 30%;
     margin: 2% 2% 2% 2%;
     width: 60%;
