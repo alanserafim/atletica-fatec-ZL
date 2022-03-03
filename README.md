@@ -5,23 +5,21 @@ This repository holds a web based software developed in the 2º semester of Soft
 
 Link: https://alanserafim.github.io/atletica-fatec-zl/
 
-<br>git
+<br>
 
 ## Screenshots (03-03-2022) 
-
-<br>
 
 ### Desktop 
 
 <img src="assets\img\screenshots\Alanserafim - Full - Generic Laptop - 2022-03-03 at 6.10.50 PM.jpg" alt="Desktop" style="width:700px;">
 
-<br><br>
+<br>
 
 ### Tablet 
 
 <img src="assets\img\screenshots\Alanserafim - Full - iPad - 2022-03-03 at 6.10.43 PM.jpg" alt="Tablet" style="width:500px;">
 
-<br><br>
+<br>
 
 ### Mobile 
 
