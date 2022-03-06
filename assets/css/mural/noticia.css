@@ -1,6 +1,6 @@
 .noticia {
     background-color: var(--background-card);
-    border-radius: 5%;
+    border-radius: 1%;
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -8,11 +8,18 @@
     margin-top: 2em;
     padding: 1em;
     width: 200px;
+    box-shadow: 2px 2px 2px var( --sombra-card-mural);
+    transition: .3s;
+}
+
+.noticia:hover {
+    box-shadow: 4px 4px 4px var( --sombra-card-mural);
 }
 
 
 @media screen and (max-width: 550px){
     .noticia {
+        padding: 0;
         margin-left: 0;
         margin-top: 2em;
         width: 78vw;
