@@ -55,3 +55,11 @@ h1, h2, h3, h4, h5, h6 {
 ul, li {
     padding: 0;
 }
+
+.banner__imagem, .logo-atletica, .noticia__imagem, .logos__imagem, .diretoria__imagem, .inscricoes__imagem, .galeria__imagem, .evento__imagem, .produto__imagem {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.mapa__iframe {
+    filter: grayscale(70%) contrast(80%);
+}
