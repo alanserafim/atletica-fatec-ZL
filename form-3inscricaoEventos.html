@@ -74,34 +74,40 @@
         <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         </script>
-             <!-- Fernando-->
-             <section class="login-section">
-            
-                <div class="formulario-cadastro">
-                    <form action="login" method="get">
-                        
-                         <h1><strong>Compra de ingressos</strong></h1>
-                          <label>CPF:</label><br>
-                          <input type="number"><br>
-                          <label>Quantidade:</label><br>
-                          <input type="number"><br>
-                          <label>Escolha a data:</label><br>
-                          <input type="date"><br>
-                          <label>Preço Total:</label><br>
-                          <input type="text"><br>
-                          
-                          <br>
-                          <div class="submit">
-                            <input class="input" type="submit" value= "Comprar agora" > 
-                          </div>
-                    </form>    
-                </div>
-    
-            </section>
-    
 
-             <!-- Fernando-->
 
+             <div class="container">
+                <section class="cadastro">       
+                    <form  class="cadastro__form" method="POST">
+                        <h1 class="form__titulo">Compra de Ingressos</h1>
+                        <div class="form__campos">
+                            <label for="cpf">CPF</label><br>
+                            <input type="number" name="cpf" required placeholder="999.999.999-99"><br>
+                            <label for="quantidade">Quantidade:</label><br>
+                            <input type="number" name="quantidade"><br>
+                            <label for="data">Escolha a data:</label><br>
+                            <input type="date" name="data"><br>
+                            <label for="preco">Preço Total:</label><br>
+                            <input type="text" name="preco"><br>   
+                        </div>
+                        <div class="form__botoes"><br>
+                            <input class="" type="submit" value= "Comprar Agora" >
+                        </div>
+                    </form>
+                </section>
+
+                <section class="evento">
+                    <div class="evento__data">
+                        <p></p>
+                    </div>
+                    <div class="evento__banner">
+                        <img src="" alt="">
+                    </div>
+                    <div class="evento__titulo">
+                        <p></p>
+                    </div>
+                </section>
+            </div>
 
     </main>
     <footer class="rodape" id="rodape">

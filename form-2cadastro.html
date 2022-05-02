@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="assets\css\menu-superior\menu-dropdown.css">
     <link rel="stylesheet" href="assets\css\menu-superior\menu-links.css">
     <link rel="stylesheet" href="assets\css\menu-superior\logo-atletica.css">
-    
+
+    <link rel="stylesheet" href="assets\css\cadastro\cadastro.css">
     
     <link rel="stylesheet" href="assets\css\rodape.css">
     <link rel="stylesheet" href="assets\css\rodape-icones\icones__redeSociais.css">
@@ -75,39 +76,38 @@
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         </script>
        <!-- Fernando-->
-       <section class="login-section">
-            
-        <div class="formulario-cadastro">
 
-            <form action="login" method="get">
+    <div class="container">
+        <section class="cadastro">       
+            <form  class="cadastro__form" method="POST">
+                <h1 class="form__titulo">Cadastre-se</h1>
+                <div class="form__campos">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email"required placeholder="nome@site.com.br">
+                    <label for="cpf">CPF</label>
+                    <input type="number" name="cpf" required placeholder="999.999.999-99">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" required placeholder="Nome Completo">
+                    <label for="data">Data de Nascimento</label>
+                    <input type="date" name="data" required>
+                    <label for="curso">Curso:</label>
+                    <input type="text" name="curso">
+                    <label for="turma">Turma:</label>
+                    <input type="text" name="turma">
+                    <label for="celular">Celular</label>
+                    <input type="tel" name="celular" placeholder="(99) 99999-9999">
+                    <label for="senha" >Senha:</label>
+                    <input type="password" name="senha"  required>
+                    <label for="confirmacao" >Confirmação de Senha:</label>
+                    <input type="password" name="confirmacao"  required>                     
+                </div>
+                <div class="form__botoes"><br>
+                    <input class="botao__cadastrar" type="submit" value= "Cadastrar" >
+                </div>
                 
-                 <h1><strong>Cadastre-se</strong></h1>
-                  <label>E-mail:</label><br>
-                  <input type="email"><br>
-                  <label>CPF:</label><br>
-                  <input type="number"><br>
-                  <label>Nome:</label><br>
-                  <input type="text"><br>
-                  <label>Data de nascimento:</label><br>
-                  <input type="date"><br>
-                  <label>Curso:</label><br>
-                  <input type="text"><br>
-                  <label>Turma:</label><br>
-                  <input type="text"><br>
-                  <label>Telefone:</label><br>
-                  <input type="number"><br>
-                  <label>Senha:</label><br>
-                  <input type="password"><br>
-                  <label>Confirmação de senha:</label><br>
-                  <input type="password"><br>
-                  <br>
-                  <div class="submit">
-                    <input class="input" type="submit" value= "Finalizar" > 
-                  </div>
-            </form>    
-        </div>
-
-    </section>
+            </form>
+        </section>
+    </div>
 
     <!-- Fernando-->
     </main>
