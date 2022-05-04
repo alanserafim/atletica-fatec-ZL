@@ -1,6 +1,7 @@
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 69.17vh;
 }
@@ -11,6 +12,7 @@
     margin: 2%;
     padding: 2%;
     border-radius: 14px;
+    width: 40%;
 }
 
 .login__titulo{

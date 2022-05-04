@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 70%;
 }
 
 .cadastro{
     background-color: #630101;
     color: white;
-    margin: 2%;
+    margin: 2% 2% 2% 45%;
     padding: 2%;
     border-radius: 14px;
 }
@@ -28,7 +29,7 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     justify-content: space-around;
 }
 
